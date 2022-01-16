@@ -7,15 +7,15 @@ import Error from  './Pages/Error'
 
 function App() {
   return (
-    <TemplateDefault>
-      <Router>
+    <Router>
+      <TemplateDefault>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/Users' element={<Users />} />
           <Route path='*' element={<Error />} />
         </Routes>
-      </Router>
-    </TemplateDefault>
+      </TemplateDefault>
+    </Router>
   );
 }
 

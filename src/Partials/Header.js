@@ -25,6 +25,7 @@ export default function Header() {
 
   const handleOnClick = () => {
     navigate('/')
+    handleToggleMenu()
   }
 
   return (
